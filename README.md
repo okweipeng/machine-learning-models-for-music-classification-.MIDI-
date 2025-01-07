@@ -70,13 +70,13 @@ Use music21 to extract relevant features from MIDI data.
 ```python
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2)
-  
+
 from sklearn.svm import SVC
 svm = SVC(kernel='rbf')
 svm.fit(X_train, y_train)
 
 **4. Evaluate the Model:**
-
+```python  
 from sklearn.metrics import classification_report
 y_pred = svm.predict(X_test)
 print(classification_report(y_test, y_pred))
@@ -101,17 +101,3 @@ music21: For feature extraction from MIDI files.
 scikit-learn: For machine learning algorithms and evaluation.
 
 matplotlib & seaborn: For visualizing results and metrics.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
