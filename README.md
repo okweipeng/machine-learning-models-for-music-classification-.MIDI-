@@ -84,7 +84,9 @@ print(classification_report(y_test, y_pred))
 
 ## Results
 **Accuracy: Achieved >90% across all models.**
+
 **Confusion Matrix: Demonstrates clear separation between composer classes.**
+
 **Insights: Feature engineering, especially N-grams, significantly improved classification accuracy.**
 
 ---
