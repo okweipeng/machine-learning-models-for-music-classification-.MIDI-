@@ -61,15 +61,12 @@ and **Gradient Boosting**, aiming for accuracy above 90%.
 ---
 ## Usage
 **1. Preprocess MIDI Files:**
-
 preprocessed_data = preprocess_midi(midi_data)
 
 **2. Feature Extraction:**
-
 Use music21 to extract relevant features from MIDI data.
 
 **3. Train Machine Learning Models:**
-
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2)
 
