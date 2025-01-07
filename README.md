@@ -67,6 +67,7 @@ preprocessed_data = preprocess_midi(midi_data)
 Use music21 to extract relevant features from MIDI data.
 
 **3. Train Machine Learning Models:**
+
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2)
 
@@ -75,6 +76,7 @@ svm = SVC(kernel='rbf')
 svm.fit(X_train, y_train)
 
 **4. Evaluate the Model:**
+
 from sklearn.metrics import classification_report
 y_pred = svm.predict(X_test)
 print(classification_report(y_test, y_pred))
