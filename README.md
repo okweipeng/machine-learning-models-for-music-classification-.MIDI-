@@ -76,7 +76,6 @@ svm = SVC(kernel='rbf')
 svm.fit(X_train, y_train)
 
 **4. Evaluate the Model:**
-```python  
 from sklearn.metrics import classification_report
 y_pred = svm.predict(X_test)
 print(classification_report(y_test, y_pred))
