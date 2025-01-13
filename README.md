@@ -14,7 +14,7 @@ and **Gradient Boosting**, aiming for accuracy above 90%.
 - **Data Preprocessing**: Includes normalization, outlier removal, and handling of missing values.  
 - **Machine Learning Models**: Implements SVM, Logistic Regression, and Gradient Boosting classifiers.  
 - **Evaluation Metrics**: Accuracy & confusion matrix
-- **Research Documentation**: Results are organized and presented in a structured research paper format.  
+- **Research Documentation**: Results are organized and presented in a structured research paper format. (Not shown along this repo)
 
 ---
 ## Workflow
