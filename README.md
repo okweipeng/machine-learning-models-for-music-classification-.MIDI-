@@ -38,7 +38,7 @@ and **Gradient Boosting**, aiming for accuracy above 90%.
 
 ---
 ## Dataset
-- **Source**: Classical music MIDI files provided via our professor.  
+- **Source**: Classical music MIDI files provided via our professor. (6 chosen .MIDI files within Colab NB)
 - **Classes**: Specified Six composers (Check Google Colab NB) 
 - **Preprocessing**: MIDI files cleaned and processed using the `music21` library.  
 
