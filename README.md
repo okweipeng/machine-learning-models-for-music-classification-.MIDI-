@@ -14,12 +14,12 @@ and **Gradient Boosting**, aiming for accuracy above 90%.
 - **Data Preprocessing**: Includes normalization, outlier removal, and handling of missing values.  
 - **Machine Learning Models**: Implements SVM, Logistic Regression, and Gradient Boosting classifiers.  
 - **Evaluation Metrics**: Accuracy & confusion matrix
-- **Research Documentation**: Results are organized and presented in a structured research paper format. (Not shown along this repo)
+- **Research Paper**: Results are organized and presented in a structured research paper format. (Not shown along this Github repo)
 
 ---
 ## Workflow
 1. **MIDI File Preprocessing**  
-   - Filter and standardize MIDI files.  
+   - Filter and converted MIDI files for readability for ML processing.  
    - Extract musical components (e.g., notes, chords) using `music21`.  
 
 2. **Feature Engineering**  
@@ -30,16 +30,16 @@ and **Gradient Boosting**, aiming for accuracy above 90%.
    - Perform hyperparameter tuning for optimization.  
 
 4. **Evaluation**  
-   - Assess model performance using metrics like confusion matrices and classification reports.  
+   - Assess model performance using metrics like confusion matrices and classification reports. (Thus, it shows how our models are doing) 
 
 5. **Results Documentation**  
    - Findings are presented in a structured research paper format, including Abstract, Introduction,  
-     Methodology, Experiments, Results, and References.  
+     Dataset, ML Models, Feature Extraction, Results, and References.  
 
 ---
 ## Dataset
-- **Source**: Classical music MIDI files from publicly available datasets.  
-- **Classes**: Six composers (Check Google Colab NB) 
+- **Source**: Classical music MIDI files provided via our professor.  
+- **Classes**: Specified Six composers (Check Google Colab NB) 
 - **Preprocessing**: MIDI files cleaned and processed using the `music21` library.  
 
 ---
@@ -101,3 +101,7 @@ music21: For feature extraction from MIDI files.
 scikit-learn: For machine learning algorithms and evaluation.
 
 matplotlib & seaborn: For visualizing results and metrics.
+
+---
+
+Thank You!
